@@ -14,6 +14,7 @@ import org.testng.annotations.AfterClass;
 public class FinalUtility {
 
 	static JavascriptExecutor js;
+	static WebDriver driver;
 
 	public static WebDriver getDriver(WebDriver driver) throws InterruptedException {
 		//killIEAndClearCacheChrome();
